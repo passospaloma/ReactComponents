@@ -1,0 +1,28 @@
+
+.swiper-pagination-bullet{
+    background: white;
+}
+.swiper-container {
+    width: 190vh;
+    top: 30vh;
+    bottom: 100px;
+    height: 60vh;
+}
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0002);
+
+}
+
+.swiper-slide img{
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}

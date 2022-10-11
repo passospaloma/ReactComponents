@@ -1,0 +1,40 @@
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    
+
+}
+
+.swiper-pagination-bullet{
+    background: white;
+}
+.swiper-container {
+    width: 190vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0002);
+
+}
+
+.swiper-slide img{
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}

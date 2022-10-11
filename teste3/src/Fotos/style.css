@@ -1,0 +1,36 @@
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    width: auto;
+    
+
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 350px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0002);
+
+}
+.swiper-slide img{
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 350px;
+}
